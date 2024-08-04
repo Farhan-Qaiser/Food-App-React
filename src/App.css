@@ -1,0 +1,36 @@
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+   display: flex;
+   padding: .8rem 5rem;
+   background-color: #ffd103;
+}
+.navbar img{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+}
+.navbar h1{
+  font-size: 1.5rem;
+}
+.navbar p{
+  font-size: .6rem;
+  position: relative;
+  top: 1.8rem;
+  right: 6.3rem;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  top: .6rem;
+  left: 25rem;
+}
