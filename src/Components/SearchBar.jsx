@@ -1,7 +1,12 @@
 
 const SearchBar = () => {
   return (
-    <div></div>
+    <>
+    <div className="search">
+        <input type="text" placeholder="Search..." />
+        <button>Search</button>
+    </div>
+    </>
   )
 }
 
