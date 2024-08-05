@@ -1,6 +1,6 @@
 import PizzaImage from "../assets/pizza.jpg"
 import MomosImage from "../assets/momo.jpg"
-
+import LassangaImage from '../assets/lassanga.jpg'
 
 
 
@@ -17,8 +17,8 @@ const ExploreFood = () => {
 
     <div className="explore">
       <div>
-        {/* <img src={}/> */}
-        <p>Burger</p>
+        <img src={LassangaImage}/>
+        <p>Lassanga</p>
       </div>
 
       <div>
