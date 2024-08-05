@@ -18,7 +18,7 @@ const Footer = () => {
       <a><BsInstagram size={30}/></a>
       <a><FaXTwitter size={30}/></a>
       </div>
-      <h5>© Copyright{currYear}.All rights reserved</h5>
+      <h5> © Copyright{currYear}.All rights reserved </h5>
     </div>
   )
 }
