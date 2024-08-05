@@ -181,6 +181,6 @@
   transition: all .13s ease-in-out;
 }
 .food-card button:hover{
-  color: #ffd103;
   background: #000;
+  color: #ffd103;
 }
