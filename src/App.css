@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 
 *{
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,7 +25,7 @@
   font-size: .6rem;
   position: relative;
   top: 1.8rem;
-  right: 6.3rem;
+  right: 7.1rem;
 }
 .navbar ul{
   list-style: none;
@@ -94,6 +95,7 @@
   align-items: center;
   justify-content: center;
   padding: 4rem;
+  background-color: #cccccc7a;
 }
 .explore img{
   height: 20rem;
@@ -110,11 +112,18 @@
 }
 .title{
   position: relative;
-  top: 2rem;
+  background: #cccccc7a;
   text-align: center;
   padding: 2rem;
   color: #000;
   font-weight: bolder;
+}
+.title-food-menu{
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+  color: #000;
+  font-weight: bolder
 }
 .footer{
   padding: 1rem;
@@ -131,8 +140,9 @@
   margin: .6rem;
 }
 .food-menu {
+  padding: 3rem;
   display: flex;
-  background-color: #ddd;
+  
   justify-content: space-between;
   flex-wrap: wrap ;
 }

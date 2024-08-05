@@ -30,8 +30,8 @@ const ExploreFood = () => {
         <img src={PizzaImage}/>
         <p>Pizza</p>
       </div>
-
     </div>
+    <h1 className="title-food-menu">Food Menu</h1>
     </>
   )
 }

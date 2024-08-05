@@ -3,8 +3,8 @@ const SearchBar = () => {
   return (
     <>
     <div className="search">
-        <input type="text" placeholder="Search..." />
-        <button>Search Food...</button>
+        <input type="text" placeholder="Search Food..." />
+        <button>Search </button>
     </div>
     </>
   )
