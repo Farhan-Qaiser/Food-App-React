@@ -11,7 +11,7 @@ const ExploreFood = () => {
   return (<>
 
 <div className="title">
-        <h1>Explore Food</h1>
+        <h1>Explore Foods</h1>
       </div>
 
 
